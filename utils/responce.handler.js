@@ -1,4 +1,4 @@
-let resposcha = (res, status, data) => {
+let responce = (res, status, data) => {
     if (status >= 200 && status <= 205) {
       res.status(status).json({
         status: "Succes",
@@ -12,4 +12,4 @@ let resposcha = (res, status, data) => {
     }
   };
   
-export { resposcha }
+export { responce }
